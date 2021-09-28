@@ -1,0 +1,28 @@
+{
+
+    "name":"Owl- Dark Mode",
+    "description": "Move your screen to Dark Mode From Light Mode and vice versa",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons":{
+      "128":"logo.png"
+    },
+    "background":{
+        "scripts": [
+            "popup.js"
+        ],
+        "persisten": true
+    },
+    "browser_action":{
+        "default_title": "Owl- Dark Mode",
+        "default_popup": "popup.html",
+        "default_icon":"logo.png"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+        
+
+}
